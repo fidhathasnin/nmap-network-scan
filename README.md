@@ -15,7 +15,6 @@ Optional packet analysis using **Wireshark**.
 ```bash
 sudo nmap -sS 10.0.2.0/24
 ```
-# 🔍 Nmap Network Scan Task
 
 ## 🔎 Observations
 
@@ -52,18 +51,7 @@ sudo nmap -sS 10.0.2.0/24
 
 ---
 
-## ⚠️ Risk Summary
 
-- **SMB (445)** and **RPC (135)** may pose serious external exposure risks.
-- **HTTP (80)** on 10.0.2.15 should be tested for:
-  - Directory listing
-  - Outdated CMS
-  - Open admin panels
-- **DNS (53)** could be vulnerable to:
-  - DNS poisoning
-  - Amplification attacks
-
----
 
 ## 💾 Output File
 
